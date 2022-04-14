@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/main.js" defer></script>
+    <style>
+        @font-face {
+            font-family: 'Muli';
+            src: url('https://assets.website-files.com/5c7d318eeaea1d6e1198d906/60ba524efd97a1055187c2a4_1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Muli';
+            src: url('https://assets.website-files.com/5c7d318eeaea1d6e1198d906/60ba524efd97a1055187c2a4_1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2') format('woff2');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Muli';
+            src: url('https://assets.website-files.com/5c7d318eeaea1d6e1198d906/60ba524efd97a1055187c2a4_1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2') format('woff2');
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Muli';
+            src: url('https://assets.website-files.com/5c7d318eeaea1d6e1198d906/60ba524efd97a1055187c2a4_1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Muli';
+            src: url('https://assets.website-files.com/5c7d318eeaea1d6e1198d906/60ba524efd97a1055187c2a4_1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2') format('woff2');
+            font-weight: 800;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Muli';
+            src: url('https://assets.website-files.com/5c7d318eeaea1d6e1198d906/60ba524efd97a1055187c2a4_1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2') format('woff2');
+            font-weight: 200;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Muli';
+            src: url('https://assets.website-files.com/5c7d318eeaea1d6e1198d906/60ba524efd97a1055187c2a4_1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2') format('woff2');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Muli';
+            src: url('https://assets.website-files.com/5c7d318eeaea1d6e1198d906/60ba524efd97a1055187c2a4_1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2') format('woff2');
+            font-weight: 900;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body {
+            font-family: 'Muli';
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <aside class="dropdown-menu" id="menu-1">
+        <ul class="menu-item-list">
+            <li class="sub-menu-item"><a href="https://www.appcues.com/use-case/user-onboarding-software"><img
+                        src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/60b1a63349c4954ac7f1f36d_map-colored.svg"
+                        alt="user onboarding icon">User
+                    Onboarding</a></li>
+            <li class="sub-menu-item"><a href="https://www.appcues.com/use-case/feature-adoption-software"><img
+                        src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/60b1a633b5dada3b23678886_rocket-colored.svg"
+                        alt="feature adoption icon">Feature
+                    Adoption</a></li>
+            <li class="sub-menu-item"><a href="https://www.appcues.com/use-case/insights"><img
+                        src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/60b1a633be705f5d62642972_progress-colored.svg"
+                        alt="insights icon">
+                    Insights
+                </a></li>
+            <li class="sub-menu-item"><a href="https://www.appcues.com/use-case/nps-surveys"><img
+                        src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/60b1a63261e1005bd2a6544a_chat-colored.svg"
+                        alt="NPS & surveys icon">NPS & Surveys</a></li>
+            <li class="sub-menu-item"><a href="https://www.appcues.com/use-case/announcements"><img
+                        src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/60b1a633b7b11dee0913b5f7_sound-colored.svg"
+                        alt="announcements icon"> Announcements</a></li>
+        </ul>
+    </aside>
+    <header>
+        <a href="https://www.appcues.com/"><img
+                src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/60b15b23b5434baf3577a04d_appcues-logo.svg"
+                alt="Appcues logo" class="nav-logo"></a>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-list-item" id="menu-1-button">Use cases <img
+                        src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/60b18efd42d31f0ef3122fcb_dropdown-arrow.svg"
+                        alt="down arrow" class="down-arrow"></li>
+                <li class="nav-list-item">How it works</li>
+                <li class="nav-list-item">Why Appcues</li>
+                <li class="nav-list-item">Pricing</li>
+                <li class="nav-list-item">Resources</li>
+                <li class="nav-list-item sign-in"><a href="https://auth.appcues.com/login"><img
+                            src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/60b196ab34336b401a23937c_login.svg"
+                            alt="person icon"> Sign in</a></li>
+                <li class="nav-list-item start-free"><a href="https://auth.appcues.com/register">Start free</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="menu-trigger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <aside class="side-menu-pos-design" id="side-menu">
+            <img src="https://uploads-ssl.webflow.com/61df2e51e1b1284b1537064a/61df2e51e1b1285a4b371408_streamline-icon-delete-1%40300x300.png"
+                alt="" class="menu-close">
+            <ul class="side-menu-content">
+                <li class="nav-list-item" id="menu-1-button">Use cases <img
+                        src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/60b18efd42d31f0ef3122fcb_dropdown-arrow.svg"
+                        alt="down arrow" class="down-arrow"></li>
+                <li class="nav-list-item">How it works</li>
+                <li class="nav-list-item">Why Appcues</li>
+                <li class="nav-list-item">Pricing</li>
+                <li class="nav-list-item">Resources</li>
+                <li class="nav-list-item sign-in"><a href="https://auth.appcues.com/login"><img
+                            src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/60b196ab34336b401a23937c_login.svg"
+                            alt="person icon"> Sign in</a></li>
+                <li class="nav-list-item start-free"><a href="https://auth.appcues.com/register">Start free</a></li>
+            </ul>
+        </aside>
+    </header>
+    <section class="hero-section">
+        <div class="video-section">
+            <video playsinline autoplay muted loop
+                poster="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e18f0ab8df02f7c4950c7_ezgif.com-gif-maker.gif">
+                <source src="https://appcues-public.s3.us-west-2.amazonaws.com/website/img/loop-teams.mp4"
+                    type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div>
+                <h6 class="upper-subheader">
+                    👋 Welcome to Appcues!
+                </h6>
+                <h1 class="upper-header">Proudly empowering the product-led revolution—worldwide</h1>
+                <button class="button-white"><a href="#jobs-section">We're hiring!</a></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2 class="header">Our story</h2>
+            <div class="story-div">
+                <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e18b5b54baccaa9b9b355_jaxjkgif.gif"
+                    alt="Dancing">
+                <div class="story-words">
+                    <p>Founded in 2013 by Jonathan Kim and Jackson Noel, Appcues set out to revolutionize the way
+                        software
+                        businesses onboard new users. We’ve since enabled thousands of businesses around the world to
+                        deliver beautiful and effective in-app experiences—without a developer. And our impact only
+                        continues to grow.</p>
+                    <p>Today, Appcues is a complete solution for measuring and improving product adoption. Whether
+                        you’re a
+                        prospective customer, employee, investor, or friend (hi mom!), we look forward to sharing the
+                        rest
+                        of our journey with you.</p>
+                    <div class="story-stats">
+                        <div class="story-stats-block">
+                            <p class="story-stats-bold">4,000+</p>
+                            <p class="story-stats-p">customers served</p>
+                        </div>
+                        <div class="story-stats-block">
+                            <p class="story-stats-bold">200M+</p>
+                            <p class="story-stats-p">end-users reached</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team-section">
+        <div>
+            <h2 class="header-light">Our team</h2>
+            <p class="sub-header-light">We have over 90 employees in over 13 different countries and counting!</p>
+            <div class="map-image">
+                <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/623b7d493dec76f157eb14de_Appcutie-world-map%402x.png"
+                    alt="Map">
+            </div>
+        </div>
+    </section>
+    <section class="values-section">
+        <div>
+            <h2 class="header">Our values</h2>
+            <p class="sub-header">These values guide how we work together every day. They don’t just sit in a dusty
+                document—they evolve
+                and change as our company grows, and we love rewarding teammates who best exemplify them (with prizes
+                😉).</p>
+            <div class="values-individual-section">
+                <div class="values-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e18e325a08dd8a0d58ca2_purplepinkheart3.svg"
+                        alt="" class="about-icon">
+                    <h4>Take pride in your work</h4>
+                    <p>Be bold and aspire for excellence. Let's build a lasting company.</p>
+                </div>
+                <div class="values-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e18e325a08d246dd58ca3_be%20an%20owner.svg"
+                        alt="" class="about-icon">
+                    <h4>Be an owner</h4>
+                    <p>Owners sweep the floors and take out the trash. They do what's best for the customer and company,
+                        and are always accountable to their teammates.</p>
+                </div>
+                <div class="values-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e18e325a08d2406d58ca4_learning.svg"
+                        alt="" class="about-icon">
+                    <h4>Always be learning</h4>
+                    <p>Improve every day; feedback and reflection will make us all better.</p>
+                </div>
+                <div class="values-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e18e325a08d02a0d58ca5_empower.svg"
+                        alt="" class="about-icon">
+                    <h4>Empower others</h4>
+                    <p>We exist to empower customers; we’ll succeed by empowering each other.</p>
+                </div>
+                <div class="values-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e18e325a08d860ed58ca6_embrace%20journey.svg"
+                        alt="" class="about-icon">
+                    <h4>Embrace the journey</h4>
+                    <p>Appreciate the entire experience, win as a team, and have fun.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="day-section">
+        <div class="day-subsection">
+            <div class="day-text">
+                <h2>The day-to-day</h2>
+                <p>Appcues teammates hail from all over the map and enjoy many different interests, but we all share a
+                    love for blurple, our vibrant yet soothing brand color. We’re real big on customer happiness, and we
+                    celebrate our customers’ stunning flows every day in Slack—e.g. “this welcome modal is 🔥” or “❤️
+                    this video in a slideout.”</p>
+                <p>Each morning, we sign into our respective tools, do our best work, and share puns and GIFs along the
+                    way. We take pride in the skills we bring to the table and strive to deliver excellent experiences
+                    for our customers, but we also don’t take ourselves too seriously.</p>
+            </div>
+            <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e18f0ab8df02f7c4950c7_ezgif.com-gif-maker.gif"
+                alt="Team waving">
+        </div>
+        <div class="day-subsection">
+            <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/61e86a721e3d91815f9cdeb3_q0td22-2.png"
+                alt="">
+            <div class="day-text-reverse">
+                <h2>Remote-first</h2>
+                <p>The world changed in the spring of 2020, and so did we. Appcues is still relatively new to this
+                    #remote life, but we’re learning and growing every day and embracing the flexibility it offers. Love
+                    to code at 2am? Write your best emails with two animals on your lap? We’re here for you.</p>
+                <p>To keep us all connected, we’ve got Slack channels galore, questions of the day (Favorite recipe?
+                    Mullet or perm?), team lunches, holiday celebrations, quality swag (hello YETI cooler), two annual
+                    in-person retreats, and more.</p>
+                <p class="channel-subheader">Our favorite Slack channels</p>
+                <div>
+                    <ul class="channel-row">
+                        <li class="channel-list-item">#dogcues</li>
+                        <li class="channel-list-item">#shoutouts</li>
+                        <li class="channel-list-item">#random</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="covered-section">
+        <div>
+            <h2 class="header">We've got you covered</h2>
+            <p class="sub-header">Rest easy and do your best work, knowing that we’ll take care of the important stuff…
+                and provide some
+                fun perks.</p>
+            <div class="covered-individual-section">
+                <div class="covered-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e19163c67226ba3f063d6_well%20being.svg"
+                        alt="" class="about-icon">
+                    <h4>Well-being</h4>
+                    <p>You'll have a solid health, dental, and vision plan; access to 401k, and a generous family leave
+                        policy.</p>
+                </div>
+                <div class="covered-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e19163c67222866f063d5_tech%20personal%20dev.svg"
+                        alt="" class="about-icon">
+                    <h4>Home office and tech budget</h4>
+                    <p>We offer a $1,000 home office stipend, and an additional $500 annual budget for extra
+                        work-related technology.</p>
+                </div>
+                <div class="covered-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e19163c67224201f063d7_coworkicon.svg"
+                        alt="" class="about-icon">
+                    <h4>Co-working space, on us</h4>
+                    <p>Home office not cutting it? We'll reimburse your monthly coworking fees.</p>
+                </div>
+                <div class="covered-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e19163c672205cdf063d4_equity.svg"
+                        alt="" class="about-icon">
+                    <h4>Equity offerings</h4>
+                    <p>We want everyone invested in our success. Each employee is granted equity in the company.</p>
+                </div>
+                <div class="covered-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e19163c672246d7f063d3_transparency.svg"
+                        alt="" class="about-icon">
+                    <h4>Transparency and collaboration</h4>
+                    <p>We foster team alignment with meetings of all shapes and sizes—a monthly all-hands meeting called
+                        FirstThurs, ad hoc Lunch & Learns at team lunches, and more!</p>
+                </div>
+                <div class="covered-individual">
+                    <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e19163c6722724bf063d2_vacation.svg"
+                        alt="" class="about-icon">
+                    <h4>Flexible vacation</h4>
+                    <p>We believe time away to reflect and explore makes us all more productive, so we expect each
+                        employee to take a minimum of ten days of vacation per year.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="job-section" id="jobs-section">
+        <div>
+            <h2 class="header">Come work with us!</h2>
+            <p class="sub-header">Don’t sweat it if you don’t meet all the requirements in a job description (does
+                anyone, really?), or if
+                you’ve spent some time out of work. We get it. If you’re excited about Appcues, we’d love to chat!</p>
+        </div>
+        <div>
+            <div id="jobs-container" class="lever-container">
+                <div class="jobs-list-marketing"></div>
+                <div class="jobs-list-sales"></div>
+                <div class="jobs-list-cx"></div>
+                <div class="jobs-list-eng"></div>
+                <div class="jobs-list-product"></div>
+                <div class="jobs-list-ga"></div>
+            </div>
+        </div>
+        </div>
+        <div class="dei-statement">
+            <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e18e325a08dd8a0d58ca2_purplepinkheart3.svg"
+                alt="" class="about-icon">
+            <p>Appcues is an equal opportunity employer that commits to diversity and inclusion and also celebrates it.
+                We do not discriminate based on race, color, national origin, religion, gender, gender expression,
+                sexual orientation, age, veteran status, disability status, or marital status. We believe that diverse
+                teams foster a more inclusive company culture, build better products, and are more human, humane, and
+                fun.</p>
+        </div>
+    </section>
+    <section class="investor-section">
+        <div class="investor-text">
+            <h5>Our investors</h5>
+            <h2>Thanks to these brilliant backers, our journey's just begun</h2>
+        </div>
+        <div class="investor-logos">
+            <img src="https://assets-global.website-files.com/5e303fead4837ec04949740b/5e303fead4837e342c497511_5b6af9a9e5d6e23178e6ca62_sierra.png"
+                alt="" class="investor-image">
+            <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/605e19339af6eb9cacd0db2b_accomplice.svg"
+                alt="" class="investor-image">
+            <img src="https://assets-global.website-files.com/5c7d318eeaea1d6e1198d906/61e82b383c0c793de6ef7a6d_newspring-2%402x.png"
+                alt="" class="investor-image">
+        </div>
+    </section>
+    <footer>
+        <div class="copyright-footer">
+            <p class="copyright">© 2022 Appcues. All rights reserved.</p>
+            <p class="copyright-link"><a href="https://www.appcues.com/security">Security</a></p>
+            <p class="copyright-link"><a href="https://www.appcues.com/terms">Terms of Service</a></p>
+            <p class="copyright-link"><a href="https://www.appcues.com/privacy">Privacy Policy</a></p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./js/events.js" defer></script>
+</body>
+
+</html>
